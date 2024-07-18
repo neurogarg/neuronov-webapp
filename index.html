@@ -4,22 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abstract Handling Fee Calculator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <h1>Abstract Handling Fee Calculator</h1>
-    <form action="/calculate" method="POST">
-        <label for="country">Country:</label>
-        <input type="text" id="country" name="country" required><br><br>
-        
-        <label for="category">Category:</label>
-        <select id="category" name="category" required>
-            <option value="professional">Professional</option>
-            <option value="postgrad">Post-Grad</option>
-            <option value="undergrad">Undergrad</option>
-            <option value="highschool">High School</option>
-        </select><br><br>
-        
-        <button type="submit">Calculate Fee</button>
-    </form>
+    <div class="container">
+        <h1>Abstract Handling Fee Calculator</h1>
+        <form action="/calculate" method="POST">
+            <label for="country">Country:</label>
+            <input type="text" id="country" name="country" required><br><br>
+            
+            <label for="category">Category:</label>
+            <select id="category" name="category" required>
+                <option value="professional">Professional</option>
+                <option value="postgrad">Post-Grad</option>
+                <option value="undergrad">Undergrad</option>
+                <option value="highschool">High School</option>
+            </select><br><br>
+            
+            <button type="submit">Calculate Fee</button>
+        </form>
+    </div>
 </body>
 </html>
