@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abstract Handling Fee</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <h1>Your Abstract Handling Fee</h1>
-    <p>The fee is ${{ fee }}.</p>
-    <a href="/">Calculate again</a>
+    <div class="container">
+        <h1>Your Abstract Handling Fee</h1>
+        <p>The fee is ${{ fee }}.</p>
+        <a href="/">Calculate again</a>
+    </div>
 </body>
 </html>
