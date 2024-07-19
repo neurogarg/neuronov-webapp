@@ -1,48 +1,50 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const countries = [
-        'USA', 'UK', 'Germany', 'Japan', 'India', 'Nigeria', 'Brazil', 'Bangladesh'
-        // Add more countries as needed
-    ];
+    // Load the country data from the text file
+    fetch('countries.txt')
+        .then(response => response.text())
+        .then(data => {
+            const countryData = data.split('\n').map(line => line.split(','));
+            const countrySelect = document.getElementById('country');
 
-    const countrySelect = document.getElementById('country');
-    countries.forEach(country => {
-        const option = document.createElement('option');
-        option.value = country;
-        option.text = country;
-        countrySelect.appendChild(option);
-    });
+            countryData.forEach(country => {
+                const option = document.createElement('option');
+                option.value = country[0];
+                option.textContent = `${country[0]} (${country[1]}, ${country[2]})`;
+                countrySelect.appendChild(option);
+            });
 
-    // Initialize Selectize.js on the country select element
-    $('#country').selectize({
-        create: false,
-        sortField: 'text'
-    });
+            // Initialize Selectize.js
+            $('#country').selectize({
+                create: false,
+                sortField: 'text',
+                searchField: ['value', 'text']
+            });
+        });
 
     document.getElementById('feeForm').addEventListener('submit', function(event) {
         event.preventDefault();
-        
+
         const country = document.getElementById('country').value;
         const category = document.getElementById('category').value;
-        
-        const highIncomeCountries = ['USA', 'UK', 'Germany', 'Japan'];
-        const lowMiddleIncomeCountries = ['India', 'Nigeria', 'Brazil', 'Bangladesh'];
-        
-        const fees = {
-            'high_income': {'professional': 50, 'postgrad': 20, 'undergrad': 15, 'highschool': 10},
-            'low_middle_income': {'professional': 30, 'postgrad': 15, 'undergrad': 10, 'highschool': 5}
-        };
-        
-        let feeCategory;
-        if (highIncomeCountries.includes(country)) {
-            feeCategory = 'high_income';
-        } else if (lowMiddleIncomeCountries.includes(country)) {
-            feeCategory = 'low_middle_income';
+
+        // Find the country data from the list
+        const countryInfo = countryData.find(c => c[0] === country);
+        const incomeLevel = countryInfo ? countryInfo[2] : null;
+
+        let fee;
+        if (incomeLevel === 'High-income') {
+            if (category === 'professional') fee = '$50';
+            else if (category === 'postgrad') fee = '$20';
+            else if (category === 'undergrad') fee = '$15';
+            else if (category === 'highschool') fee = '$10';
         } else {
-            feeCategory = 'low_middle_income'; // Default to low/middle income if not listed
+            if (category === 'professional') fee = '$30';
+            else if (category === 'postgrad') fee = '$15';
+            else if (category === 'undergrad') fee = '$10';
+            else if (category === 'highschool') fee = '$5';
         }
-        
-        const fee = fees[feeCategory][category];
-        
-        document.getElementById('result').innerText = `The fee is $${fee}.`;
+
+        document.getElementById('result').textContent = `The abstract handling fee is ${fee}.`;
+        document.getElementById('payButton').style.display = 'inline';
     });
 });
