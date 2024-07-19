@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const countrySelect = document.getElementById('country');
     const countries = [
         'USA', 'UK', 'Germany', 'Japan', 'India', 'Nigeria', 'Brazil', 'Bangladesh'
         // Add more countries as needed
     ];
 
+    const countrySelect = document.getElementById('country');
     countries.forEach(country => {
         const option = document.createElement('option');
         option.value = country;
