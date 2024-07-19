@@ -12,10 +12,10 @@
     <div class="container">
         <h1>Abstract Handling Fee Calculator</h1>
         <form id="feeForm">
-            <label for="country">Country:</label>
+            <label for="country">What is the country of residence of the presenting author?</label>
             <select id="country" name="country" required></select><br><br>
             
-            <label for="category">Category:</label>
+            <label for="category">What is the category of the presenting author?</label>
             <select id="category" name="category" required>
                 <option value="professional">Professional</option>
                 <option value="postgrad">Post-Grad</option>
@@ -26,6 +26,7 @@
             <button type="submit">Calculate Fee</button>
         </form>
         <div id="result"></div>
+        <button id="payButton" style="display:none;" onclick="window.open('https://www.neuronovember.org/event-details/abstract-submission', '_blank')">Pay Fees</button>
     </div>
     <!-- Include jQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
