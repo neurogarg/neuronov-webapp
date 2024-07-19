@@ -1,164 +1,217 @@
-Country,Region,Income Level
-American Samoa,East Asia and Pacific,High-income
-Australia,East Asia and Pacific,High-income
-Brunei Darussalam,East Asia and Pacific,High-income
-Cambodia,East Asia and Pacific,Lower-middle-income
-China,East Asia and Pacific,Upper-middle-income
-Fiji,East Asia and Pacific,Upper-middle-income
-French Polynesia,East Asia and Pacific,High-income
-Guam,East Asia and Pacific,High-income
-Hong Kong SAR, China,East Asia and Pacific,High-income
-Indonesia,East Asia and Pacific,Upper-middle-income
-Japan,East Asia and Pacific,High-income
-Kiribati,East Asia and Pacific,Lower-middle-income
-Korea, Dem. People's Rep.,East Asia and Pacific,Low-income
-Korea, Rep.,East Asia and Pacific,High-income
-Lao PDR,East Asia and Pacific,Lower-middle-income
-Macao SAR, China,East Asia and Pacific,High-income
-Malaysia,East Asia and Pacific,Upper-middle-income
-Marshall Islands,East Asia and Pacific,Upper-middle-income
-Micronesia, Fed. Sts.,East Asia and Pacific,Lower-middle-income
-Mongolia,East Asia and Pacific,Lower-middle-income
-Myanmar,East Asia and Pacific,Lower-middle-income
-Nauru,East Asia and Pacific,High-income
-New Caledonia,East Asia and Pacific,High-income
-New Zealand,East Asia and Pacific,High-income
-Northern Mariana Islands,East Asia and Pacific,High-income
-Palau,East Asia and Pacific,High-income
-Papua New Guinea,East Asia and Pacific,Lower-middle-income
-Philippines,East Asia and Pacific,Lower-middle-income
-Samoa,East Asia and Pacific,Lower-middle-income
-Singapore,East Asia and Pacific,High-income
-Solomon Islands,East Asia and Pacific,Lower-middle-income
-Taiwan, China,East Asia and Pacific,High-income
-Thailand,East Asia and Pacific,Upper-middle-income
-Timor-Leste,East Asia and Pacific,Lower-middle-income
-Tonga,East Asia and Pacific,Upper-middle-income
-Tuvalu,East Asia and Pacific,Upper-middle-income
-Vanuatu,East Asia and Pacific,Lower-middle-income
-Vietnam,East Asia and Pacific,Lower-middle-income
-Albania,Europe and Central Asia,Upper-middle-income
-Andorra,Europe and Central Asia,High-income
-Armenia,Europe and Central Asia,Upper-middle-income
-Austria,Europe and Central Asia,High-income
-Azerbaijan,Europe and Central Asia,Upper-middle-income
-Belarus,Europe and Central Asia,Upper-middle-income
-Belgium,Europe and Central Asia,High-income
-Bosnia and Herzegovina,Europe and Central Asia,Upper-middle-income
-Bulgaria,Europe and Central Asia,Upper-middle-income
-Channel Islands,Europe and Central Asia,High-income
-Croatia,Europe and Central Asia,High-income
-Cyprus,Europe and Central Asia,High-income
-Czechia,Europe and Central Asia,High-income
-Denmark,Europe and Central Asia,High-income
-Estonia,Europe and Central Asia,High-income
-Faroe Islands,Europe and Central Asia,High-income
-Finland,Europe and Central Asia,High-income
-France,Europe and Central Asia,High-income
-Georgia,Europe and Central Asia,Upper-middle-income
-Germany,Europe and Central Asia,High-income
-Gibraltar,Europe and Central Asia,High-income
-Greece,Europe and Central Asia,High-income
-Greenland,Europe and Central Asia,High-income
-Hungary,Europe and Central Asia,High-income
-Iceland,Europe and Central Asia,High-income
-Ireland,Europe and Central Asia,High-income
-Isle of Man,Europe and Central Asia,High-income
-Italy,Europe and Central Asia,High-income
-Kazakhstan,Europe and Central Asia,Upper-middle-income
-Kosovo,Europe and Central Asia,Lower-middle-income
-Kyrgyz Republic,Europe and Central Asia,Lower-middle-income
-Latvia,Europe and Central Asia,High-income
-Liechtenstein,Europe and Central Asia,High-income
-Lithuania,Europe and Central Asia,High-income
-Luxembourg,Europe and Central Asia,High-income
-Moldova,Europe and Central Asia,Lower-middle-income
-Monaco,Europe and Central Asia,High-income
-Montenegro,Europe and Central Asia,Upper-middle-income
-Netherlands,Europe and Central Asia,High-income
-North Macedonia,Europe and Central Asia,Upper-middle-income
-Norway,Europe and Central Asia,High-income
-Poland,Europe and Central Asia,High-income
-Portugal,Europe and Central Asia,High-income
-Romania,Europe and Central Asia,Upper-middle-income
-Russian Federation,Europe and Central Asia,Upper-middle-income
-San Marino,Europe and Central Asia,High-income
-Serbia,Europe and Central Asia,Upper-middle-income
-Slovak Republic,Europe and Central Asia,High-income
-Slovenia,Europe and Central Asia,High-income
-Spain,Europe and Central Asia,High-income
-Sweden,Europe and Central Asia,High-income
-Switzerland,Europe and Central Asia,High-income
-Tajikistan,Europe and Central Asia,Lower-middle-income
-Turkmenistan,Europe and Central Asia,Upper-middle-income
-Ukraine,Europe and Central Asia,Lower-middle-income
-United Kingdom,Europe and Central Asia,High-income
-Uzbekistan,Europe and Central Asia,Lower-middle-income
-Antigua and Barbuda,Latin America and the Caribbean,High-income
-Argentina,Latin America and the Caribbean,Upper-middle-income
-Aruba,Latin America and the Caribbean,High-income
-Bahamas, The,Latin America and the Caribbean,High-income
-Barbados,Latin America and the Caribbean,High-income
-Belize,Latin America and the Caribbean,Upper-middle-income
-Bolivia,Latin America and the Caribbean,Lower-middle-income
-Brazil,Latin America and the Caribbean,Upper-middle-income
-British Virgin Islands,Latin America and the Caribbean,High-income
-Cayman Islands,Latin America and the Caribbean,High-income
-Chile,Latin America and the Caribbean,High-income
-Colombia,Latin America and the Caribbean,Upper-middle-income
-Costa Rica,Latin America and the Caribbean,Upper-middle-income
-Cuba,Latin America and the Caribbean,Upper-middle-income
-Curacao,Latin America and the Caribbean,High-income
-Dominica,Latin America and the Caribbean,Upper-middle-income
-Dominican Republic,Latin America and the Caribbean,Upper-middle-income
-Ecuador,Latin America and the Caribbean,Upper-middle-income
-El Salvador,Latin America and the Caribbean,Lower-middle-income
-Grenada,Latin America and the Caribbean,Upper-middle-income
-Guatemala,Latin America and the Caribbean,Upper-middle-income
-Guyana,Latin America and the Caribbean,High-income
-Haiti,Latin America and the Caribbean,Low-income
-Honduras,Latin America and the Caribbean,Lower-middle-income
-Jamaica,Latin America and the Caribbean,Upper-middle-income
-Mexico,Latin America and the Caribbean,Upper-middle-income
-Nicaragua,Latin America and the Caribbean,Lower-middle-income
-Panama,Latin America and the Caribbean,High-income
-Paraguay,Latin America and the Caribbean,Upper-middle-income
-Peru,Latin America and the Caribbean,Upper-middle-income
-Puerto Rico,Latin America and the Caribbean,High-income
-Sint Maarten (Dutch part),Latin America and the Caribbean,High-income
-St. Kitts and Nevis,Latin America and the Caribbean,High-income
-St. Lucia,Latin America and the Caribbean,Upper-middle-income
-St. Martin (French part),Latin America and the Caribbean,High-income
-St. Vincent and the Grenadines,Latin America and the Caribbean,Upper-middle-income
-Suriname,Latin America and the Caribbean,Upper-middle-income
-Trinidad and Tobago,Latin America and the Caribbean,High-income
-Turks and Caicos Islands,Latin America and the Caribbean,High-income
-Uruguay,Latin America and the Caribbean,High-income
-Venezuela, RB,Latin America and the Caribbean,Upper-middle-income
-Virgin Islands (U.S.),Latin America and the Caribbean,High-income
-Algeria,Middle East and North Africa,Upper-middle-income
-Bahrain,Middle East and North Africa,High-income
-Djibouti,Middle East and North Africa,Lower-middle-income
-Egypt, Arab Rep.,Middle East and North Africa,Lower-middle-income
-Iran, Islamic Rep.,Middle East and North Africa,Upper-middle-income
-Iraq,Middle East and North Africa,Upper-middle-income
-Israel,Middle East and North Africa,High-income
-Jordan,Middle East and North Africa,Lower-middle-income
-Kuwait,Middle East and North Africa,High-income
-Lebanon,Middle East and North Africa,Lower-middle-income
-Libya,Middle East and North Africa,Upper-middle-income
-Malta,Middle East and North Africa,High-income
-Morocco,Middle East and North Africa,Lower-middle-income
-Oman,Middle East and North Africa,High-income
-Qatar,Middle East and North Africa,High-income
-Saudi Arabia,Middle East and North Africa,High-income
-Syrian Arab Republic,Middle East and North Africa,Low-income
-Tunisia,Middle East and North Africa,Lower-middle-income
-United Arab Emirates,Middle East and North Africa,High-income
-West Bank and Gaza,Middle East and North Africa,Lower-middle-income
-Yemen, Rep.,Middle East and North Africa,Low-income
-Bermuda,North America,High-income
-Canada,North America,High-income
-United States,North America,High-income
-Afghanistan,South Asia,Low-income
-Bangladesh,South Asia,Lower-middle-income
+American Samoa,High-income
+Australia,High-income
+Brunei Darussalam,High-income
+Cambodia,Lower-middle-income
+China,Upper-middle-income
+Fiji,Upper-middle-income
+French Polynesia,High-income
+Guam,High-income
+Hong Kong SAR, China,High-income
+Indonesia,Upper-middle-income
+Japan,High-income
+Kiribati,Lower-middle-income
+Korea, Dem. People's Rep.,Low-income
+Korea, Rep.,High-income
+Lao PDR,Lower-middle-income
+Macao SAR, China,High-income
+Malaysia,Upper-middle-income
+Marshall Islands,Upper-middle-income
+Micronesia, Fed. Sts.,Lower-middle-income
+Mongolia,Lower-middle-income
+Myanmar,Lower-middle-income
+Nauru,High-income
+New Caledonia,High-income
+New Zealand,High-income
+Northern Mariana Islands,High-income
+Palau,High-income
+Papua New Guinea,Lower-middle-income
+Philippines,Lower-middle-income
+Samoa,Lower-middle-income
+Singapore,High-income
+Solomon Islands,Lower-middle-income
+Taiwan, China,High-income
+Thailand,Upper-middle-income
+Timor-Leste,Lower-middle-income
+Tonga,Upper-middle-income
+Tuvalu,Upper-middle-income
+Vanuatu,Lower-middle-income
+Vietnam,Lower-middle-income
+Albania,Upper-middle-income
+Andorra,High-income
+Armenia,Upper-middle-income
+Austria,High-income
+Azerbaijan,Upper-middle-income
+Belarus,Upper-middle-income
+Belgium,High-income
+Bosnia and Herzegovina,Upper-middle-income
+Bulgaria,Upper-middle-income
+Channel Islands,High-income
+Croatia,High-income
+Cyprus,High-income
+Czechia,High-income
+Denmark,High-income
+Estonia,High-income
+Faroe Islands,High-income
+Finland,High-income
+France,High-income
+Georgia,Upper-middle-income
+Germany,High-income
+Gibraltar,High-income
+Greece,High-income
+Greenland,High-income
+Hungary,High-income
+Iceland,High-income
+Ireland,High-income
+Isle of Man,High-income
+Italy,High-income
+Kazakhstan,Upper-middle-income
+Kosovo,Lower-middle-income
+Kyrgyz Republic,Lower-middle-income
+Latvia,High-income
+Liechtenstein,High-income
+Lithuania,High-income
+Luxembourg,High-income
+Moldova,Lower-middle-income
+Monaco,High-income
+Montenegro,Upper-middle-income
+Netherlands,High-income
+North Macedonia,Upper-middle-income
+Norway,High-income
+Poland,High-income
+Portugal,High-income
+Romania,Upper-middle-income
+Russian Federation,Upper-middle-income
+San Marino,High-income
+Serbia,Upper-middle-income
+Slovak Republic,High-income
+Slovenia,High-income
+Spain,High-income
+Sweden,High-income
+Switzerland,High-income
+Tajikistan,Lower-middle-income
+Turkmenistan,Upper-middle-income
+Ukraine,Lower-middle-income
+United Kingdom,High-income
+Uzbekistan,Lower-middle-income
+Antigua and Barbuda,High-income
+Argentina,Upper-middle-income
+Aruba,High-income
+Bahamas, The,High-income
+Barbados,High-income
+Belize,Upper-middle-income
+Bolivia,Lower-middle-income
+Brazil,Upper-middle-income
+British Virgin Islands,High-income
+Cayman Islands,High-income
+Chile,High-income
+Colombia,Upper-middle-income
+Costa Rica,Upper-middle-income
+Cuba,Upper-middle-income
+Curacao,High-income
+Dominica,Upper-middle-income
+Dominican Republic,Upper-middle-income
+Ecuador,Upper-middle-income
+El Salvador,Lower-middle-income
+Grenada,Upper-middle-income
+Guatemala,Upper-middle-income
+Guyana,High-income
+Haiti,Low-income
+Honduras,Lower-middle-income
+Jamaica,Upper-middle-income
+Mexico,Upper-middle-income
+Nicaragua,Lower-middle-income
+Panama,High-income
+Paraguay,Upper-middle-income
+Peru,Upper-middle-income
+Puerto Rico,High-income
+Sint Maarten (Dutch part),High-income
+St. Kitts and Nevis,High-income
+St. Lucia,Upper-middle-income
+St. Martin (French part),High-income
+St. Vincent and the Grenadines,Upper-middle-income
+Suriname,Upper-middle-income
+Trinidad and Tobago,High-income
+Turks and Caicos Islands,High-income
+Uruguay,High-income
+Venezuela, RB,Upper-middle-income
+Virgin Islands (U.S.),High-income
+Algeria,Upper-middle-income
+Bahrain,High-income
+Djibouti,Lower-middle-income
+Egypt, Arab Rep.,Lower-middle-income
+Iran, Islamic Rep.,Upper-middle-income
+Iraq,Upper-middle-income
+Israel,High-income
+Jordan,Lower-middle-income
+Kuwait,High-income
+Lebanon,Lower-middle-income
+Libya,Upper-middle-income
+Malta,High-income
+Morocco,Lower-middle-income
+Oman,High-income
+Qatar,High-income
+Saudi Arabia,High-income
+Syrian Arab Republic,Low-income
+Tunisia,Lower-middle-income
+United Arab Emirates,High-income
+West Bank and Gaza,Lower-middle-income
+Yemen, Rep.,Low-income
+Bermuda,High-income
+Canada,High-income
+United States,High-income
+Afghanistan,Low-income
+Bangladesh,Lower-middle-income
+Bhutan,Lower-middle-income
+India,Lower-middle-income
+Maldives,Upper-middle-income
+Nepal,Lower-middle-income
+Pakistan,Lower-middle-income
+Sri Lanka,Lower-middle-income
+Angola,Lower-middle-income
+Benin,Lower-middle-income
+Botswana,Upper-middle-income
+Burkina Faso,Low-income
+Burundi,Low-income
+Cabo Verde,Lower-middle-income
+Cameroon,Lower-middle-income
+Central African Republic,Low-income
+Chad,Low-income
+Comoros,Lower-middle-income
+Congo, Dem. Rep.,Low-income
+Congo, Rep.,Lower-middle-income
+Côte d'Ivoire,Lower-middle-income
+Equatorial Guinea,Upper-middle-income
+Eritrea,Low-income
+Eswatini,Lower-middle-income
+Ethiopia,Low-income
+Gabon,Upper-middle-income
+Gambia, The,Low-income
+Ghana,Lower-middle-income
+Guinea,Lower-middle-income
+Guinea-Bissau,Low-income
+Kenya,Lower-middle-income
+Lesotho,Lower-middle-income
+Liberia,Low-income
+Madagascar,Low-income
+Malawi,Low-income
+Mali,Low-income
+Mauritania,Lower-middle-income
+Mauritius,Upper-middle-income
+Mozambique,Low-income
+Namibia,Upper-middle-income
+Niger,Low-income
+Nigeria,Lower-middle-income
+Rwanda,Low-income
+São Tomé and Principe,Lower-middle-income
+Senegal,Lower-middle-income
+Seychelles,High-income
+Sierra Leone,Low-income
+Somalia,Low-income
+South Africa,Upper-middle-income
+South Sudan,Low-income
+Sudan,Low-income
+Tanzania,Lower-middle-income
+Togo,Low-income
+Uganda,Low-income
+Zambia,Lower-middle-income
+Zimbabwe,Lower-middle-income
