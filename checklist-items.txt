@@ -1,0 +1,8 @@
+Create free account on OpenReview (it can take up to 2 weeks to approve for non-institutional/unsupported institutional email ids)
+Title of your submission (Maximum length is 150 characters.)
+Theme of your submission 
+List of authors (first, middle, and last names, author email address, affiliation)
+Abstract (Maximum length is 4000 characters) 
+Keywords (Comma separated list of keywords. Minimum 3 and maximum 6 keywords)
+Conflict of Interest statement (Any conflicts of interest for all authors)
+Adherence to NeuroNovember abstract submission rules and guidelines

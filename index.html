@@ -3,35 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abstract Handling Fee Calculator</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- Include Selectize.js CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/css/selectize.default.min.css" />
+    <title>Abstract Submission Checklist</title>
+    <link rel="stylesheet" href="index-style.css">
 </head>
 <body>
     <div class="container">
-        <h1>Abstract Handling Fee Calculator</h1>
-        <form id="feeForm">
-            <label for="country">What is the country of residence of the presenting author?</label>
-            <select id="country" name="country" required></select><br><br>
-            
-            <label for="category">What is the category of the presenting author?</label>
-            <select id="category" name="category" required>
-                <option value="professional">Professional</option>
-                <option value="postgrad">Post-Grad</option>
-                <option value="undergrad">Undergrad</option>
-                <option value="highschool">High School</option>
-            </select><br><br>
-            
-            <button type="submit">Calculate Fee</button>
-        </form>
-        <div id="result"></div>
-        <button id="payButton" style="display:none;" onclick="window.open('https://www.neuronovember.org/event-details/abstract-submission', '_blank')">Pay Fees</button>
+        <button id="websiteBtn" class="website-button" onclick="https://www.neuronovember.org/">Go to NeuroNov Website</button>
+        <h1 class="step-text">Step 1: Prepare your submission</h1>
+        <p class="step-text"> Abstract Submission Checklist</p>
+        <div id="checklist" class="checklist"></div>
+        <button id="nextStepBtn" onclick="window.location.href='fees.html'">Abstract Fees</button>
     </div>
-    <!-- Include jQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <!-- Include Selectize.js JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/js/standalone/selectize.min.js"></script>
-    <script src="script.js"></script>
+
+    <script>
+        // Function to create checklist items from an array of lines
+        function createChecklistItem(text, index) {
+            const div = document.createElement('div');
+            div.classList.add('checklist-item');
+
+            const input = document.createElement('input');
+            input.type = 'checkbox';
+            input.id = `item${index}`;
+
+            const label = document.createElement('label');
+            label.setAttribute('for', `item${index}`);
+            label.innerHTML = text; // Allow HTML content
+
+            div.appendChild(input);
+            div.appendChild(label);
+            return div;
+        }
+
+        // Function to load checklist items from a text file
+        function loadChecklist() {
+            fetch('checklist-items.txt')
+                .then(response => response.text())
+                .then(text => {
+                    const lines = text.split('\n').filter(line => line.trim() !== '');
+                    const checklist = document.getElementById('checklist');
+
+                    lines.forEach((line, index) => {
+                        const item = createChecklistItem(line, index + 1);
+                        checklist.appendChild(item);
+                    });
+
+                    // Add event listeners to the checkboxes
+                    document.querySelectorAll('.checklist-item input[type="checkbox"]').forEach(checkbox => {
+                        checkbox.addEventListener('change', function() {
+                            const item = this.parentElement;
+                            if (this.checked) {
+                                item.classList.add('checked');
+                            } else {
+                                item.classList.remove('checked');
+                            }
+                        });
+                    });
+                })
+                .catch(error => console.error('Error loading checklist items:', error));
+        }
+
+        // Load the checklist when the page loads
+        window.onload = loadChecklist;
+    </script>
 </body>
 </html>
