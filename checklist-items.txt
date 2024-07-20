@@ -1,9 +1,10 @@
 Create free account on OpenReview (it can take up to 2 weeks to approve for non-institutional/unsupported institutional email ids)
-Title of your submission (Maximum length is 150 characters.)
-Gather theme of your submission, abstract submission category and preference for presentation: https://www.neuronovember.org/presentations
+Title of your submission (maximum length is 150 characters)
+Gather theme of your submission, abstract submission category and preference for presentation
 List of authors (first, middle, and last names, author email address, affiliation)
 Abstract (Maximum length is 4000 characters) 
 Keywords (Comma separated list of keywords. Minimum 3 and maximum 6 keywords)
-Conflict of Interest statement (Any conflicts of interest for all authors)
-Ticket number after paying the fees (obtain this in the next step)
-Adherence to NeuroNovember abstract submission rules and guidelines: https://www.neuronovember.org/submission-guidelines
+Conflict of interest statement (Any conflicts of interest for all authors)
+Ticket number after paying the abstract handling fees (obtain this in the next step)
+Adherence to NeuroNovember abstract submission rules and guidelines
+Adherence to NeuroNovember abstract processing fee rules and guidelines
