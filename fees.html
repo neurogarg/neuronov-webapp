@@ -10,33 +10,43 @@
 </head>
 <body>
     <div class="container">
-        <h1>Abstract Handling Fee Calculator</h1>
-        <form id="feeForm">
-            <div class="form-group">
-                <label for="country">What is the country of residence of the presenting author?</label>
-                <select id="country" name="country" required></select>
-            </div>
+        <button id="websiteBtn" class="website-button" onclick="window.location.href='https://www.neuronovember.org/'">Go to NeuroNov Website</button>
+        <button id="gobackBtn" class="website-button" onclick="window.location.href='index.html'">Go to Step 1</button>
+        <div class="container-content">
+            <h1 class="step-text">Step 2: Pay the submission fee</h1>
+            <p class="step-text">Abstract Handling Fee Calculator</p>
+            <form id="feeForm">
+                <div class="form-group">
+                    <label for="country">What is the country of residence of the presenting author?</label>
+                    <select id="country" name="country" required></select>
+                </div>
 
-            <div class="form-group">
-                <label for="category">What is the category of the presenting author?</label>
-                <select id="category" name="category" required>
-                    <option value="professional">Working Professional such as doctors, researcher,
-                        professor, scientist, engineer, etc.</option>
-                    <option value="postgrad">Post-Grad (Graduate student (e.g. Master’s, PhD, MD, MBA) and/or recent college graduate (within 5 years of graduation) and Postdoctoral scholars)</option>
-                    <option value="undergrad">Undergrad (All trainees currently enrolled in an undergraduate program or within 3 years of graduating/gap year)</option>
-                    <option value="highschool">High School (All trainees who are currently a high school student or within 3 years of passing out/gap year)</option>
-                </select>
-            </div>
-            
-            <button type="submit">Calculate Fee</button>
-        </form>
-        <div id="result"></div>
-        <button id="payButton" style="display:none;" onclick="window.open('https://www.neuronovember.org/event-details/abstract-submission', '_blank')">Pay Fees</button>
+                <div class="form-group">
+                    <label for="category">What is the category of the presenting author?</label>
+                    <select id="category" name="category" required>
+                        <option value="professional">Working Professional such as doctors, researcher,
+                            professor, scientist, engineer, etc.</option>
+                        <option value="postgrad">Post-Grad (Graduate student (e.g. Master’s, PhD, MD, MBA) and/or recent college graduate (within 5 years of graduation) and Postdoctoral scholars)</option>
+                        <option value="undergrad">Undergrad (All trainees currently enrolled in an undergraduate program or within 3 years of graduating/gap year)</option>
+                        <option value="highschool">High School (All trainees who are currently a high school student or within 3 years of passing out/gap year)</option>
+                    </select>
+                </div>
+
+                <button type="submit">Calculate Fee</button>
+                <button type="Submit_abstract" onclick="window.location.href='submit.html'">Submit Abstract</button>
+            </form>
+            <div id="result"></div>
+            <button id="payButton" style="display:none;" onclick="window.open('https://www.neuronovember.org/event-details/abstract-submission', '_blank')">Pay Fees</button>
+        </div>
     </div>
     <!-- Include jQuery -->
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
     <!-- Include Selectize.js JS -->
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/js/standalone/selectize.min.js"></script>
+
     <script src="script.js"></script>
 </body>
 </html>

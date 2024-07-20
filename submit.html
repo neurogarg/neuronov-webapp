@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abstract Submission - Step 3</title>
+    <link rel="stylesheet" href="fee-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/css/selectize.default.min.css" />
+    <style>
+        .congratulatory-message {
+            display: none;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .congratulatory-message button {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button id="websiteBtn" class="website-button" onclick="window.location.href='https://www.neuronovember.org/'">Go to NeuroNov Website</button>
+        <button id="gobackBtn" class="website-button" onclick="window.location.href='fees.html'">Go to Step 2</button>
+        <div class="container-content">
+            <h1 class="step-text">Step 3: Submit the abstract</h1>
+            <p class="step-text">You are ready to upload all the details on the OpenReview Submission Portal.</p>
+            <button id="submitButton" onclick="submitAbstract()">Go to Submission Portal</button>
+            <div id="congratulatory-message" class="congratulatory-message">
+                <p>Congratulations! You will receive an update about your abstract in early October. Meanwhile, you can register for scientific talks and stay updated for workshop registration.</p>
+                <button onclick="window.location.href='https://www.neuronovember.org/event-details/scientific-talks'">Register for Scientific Talks</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Include jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script>
+        function submitAbstract() {
+            window.open('https://openreview.net/group?id=NeuroNovember.org/2024/Convention#tab-your-consoles', '_blank');
+            document.getElementById('congratulatory-message').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
